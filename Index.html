@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&amp;display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img class="logoImg" src="imagenes/Logo.png">
+        <h1 class="tittle">Encriptador de mensaje</h1>
+      </div>
+      <div class="left">
+          <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+      </div>
+      <div class="right">
+        <img src="imagenes/Muneco.png" id="imgDer">
+        <h1 id="texto">Ningún mensaje fue encontrado</h1>
+        <textarea id="texto2" >Ingresa el texto que desees encriptar o desencriptar.</textarea>
+        <button type="button" id="copiar" onclick="copia()">Copiar</button>
+      </div>
+      <div class="left-button">
+        <img src="imagenes/Vector.png" alt="icono" class="icono">
+        <p>Solo letras minusculas y sin acentos</p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">desencriptar!</button>
+      </div>
+    </div>
+    <footer>
+      <h2>♦ Luis Retuerto Castillo - 2023 ♣</h2>
+
+      </footer>
+  </body>
+</html>
